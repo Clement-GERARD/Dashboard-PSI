@@ -63,13 +63,13 @@
     "notes": ""
   },
   {
-    "name": "Utilitas",
-    "url": "https://utilitas.ee/utilitas/tootamine-utilitases/",
-    "location": "Estonie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:57:03.394Z",
     "id": "app_qjrzf2645",
-    "createdAt": "2026-09-08T12:57:03.394Z"
+    "name": "Utilitas",
+    "link": "https://utilitas.ee/utilitas/tootamine-utilitases/",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Estonie",
+    "notes": ""
   },
   {
     "name": "Fusebox",
