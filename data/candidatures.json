@@ -18,13 +18,13 @@
     "notes": "Niveau B2 Estonien requis. Relancer pour contacts supplémentaires."
   },
   {
-    "name": "APPLY",
-    "url": "https://applyit.lv/en/",
-    "location": "Lettonie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:53:48.169Z",
     "id": "app_eeuxw8emf",
-    "createdAt": "2026-09-08T12:50:06.507Z"
+    "name": "APPLY",
+    "link": "https://applyit.lv/en/",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Lettonie",
+    "notes": ""
   },
   {
     "name": "Ignitis Group",
