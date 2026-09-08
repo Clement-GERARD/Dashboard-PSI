@@ -36,13 +36,13 @@
     "notes": ""
   },
   {
-    "name": "Litgrid",
-    "url": "https://www.litgrid.eu/index.php/about-us/career/604",
-    "location": "Lituanie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:52:34.230Z",
     "id": "app_ih9iv77pt",
-    "createdAt": "2026-09-08T12:52:34.230Z"
+    "name": "Litgrid",
+    "link": "https://www.litgrid.eu/index.php/about-us/career/604",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Lituanie",
+    "notes": ""
   },
   {
     "name": "AST",
