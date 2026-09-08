@@ -72,12 +72,12 @@
     "notes": ""
   },
   {
-    "name": "Fusebox",
-    "url": "https://fusebox.energy/vacancies/",
-    "location": "Estonie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:57:21.427Z",
     "id": "app_zly35eoo0",
-    "createdAt": "2026-09-08T12:57:21.427Z"
+    "name": "Fusebox",
+    "link": "https://fusebox.energy/vacancies/",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Estonie",
+    "notes": ""
   }
 ]
