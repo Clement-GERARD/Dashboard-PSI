@@ -1,12 +1,12 @@
 [
   {
-    "name": "Baltic RCC",
-    "url": "https://baltic-rcc.eu/contact/career",
-    "location": "Estonie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:53:41.072Z",
     "id": "app_8tz3hlan2",
-    "createdAt": "2026-09-08T12:51:15.508Z"
+    "name": "Baltic RCC",
+    "link": "https://baltic-rcc.eu/contact/career",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Estonie",
+    "notes": "Lu"
   },
   {
     "name": "Elering",
