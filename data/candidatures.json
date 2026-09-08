@@ -54,13 +54,13 @@
     "notes": ""
   },
   {
-    "name": "Ignitis Renewables",
-    "url": "https://ignitisrenewables.com/young-talents/",
-    "location": "Lituanie",
-    "status": "attente",
-    "updatedAt": "2026-09-08T12:56:37.852Z",
     "id": "app_aazv6d0dq",
-    "createdAt": "2026-09-08T12:56:37.852Z"
+    "name": "Ignitis Renewables",
+    "link": "https://ignitisrenewables.com/young-talents/",
+    "status": "applied",
+    "date": "2026-09-08",
+    "location": "Lituanie",
+    "notes": ""
   },
   {
     "name": "Utilitas",
