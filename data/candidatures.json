@@ -9,13 +9,13 @@
     "notes": "Lu"
   },
   {
-    "name": "Elering",
-    "url": "https://elering.ee/en/internships-and-scholarships",
-    "location": "Estonie",
-    "status": "refuse",
-    "updatedAt": "2026-09-08T12:52:11.948Z",
     "id": "app_c5byltm01",
-    "createdAt": "2026-09-08T12:50:31.165Z"
+    "name": "Elering",
+    "link": "https://elering.ee/en/internships-and-scholarships",
+    "status": "rejected",
+    "date": "2026-09-08",
+    "location": "Estonie",
+    "notes": "Niveau B2 Estonien requis. Relancer pour contacts supplémentaires."
   },
   {
     "name": "APPLY",
