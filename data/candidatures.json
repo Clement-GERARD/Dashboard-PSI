@@ -52,5 +52,32 @@
     "updatedAt": "2026-09-08T12:53:33.904Z",
     "id": "app_gf3fv1ot7",
     "createdAt": "2026-09-08T12:53:33.904Z"
+  },
+  {
+    "name": "Ignitis Renewables",
+    "url": "https://ignitisrenewables.com/young-talents/",
+    "location": "Lituanie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:56:37.852Z",
+    "id": "app_aazv6d0dq",
+    "createdAt": "2026-09-08T12:56:37.852Z"
+  },
+  {
+    "name": "Utilitas",
+    "url": "https://utilitas.ee/utilitas/tootamine-utilitases/",
+    "location": "Estonie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:57:03.394Z",
+    "id": "app_qjrzf2645",
+    "createdAt": "2026-09-08T12:57:03.394Z"
+  },
+  {
+    "name": "Fusebox",
+    "url": "https://fusebox.energy/vacancies/",
+    "location": "Estonie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:57:21.427Z",
+    "id": "app_zly35eoo0",
+    "createdAt": "2026-09-08T12:57:21.427Z"
   }
 ]
