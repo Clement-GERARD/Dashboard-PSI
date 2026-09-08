@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Baltic RCC",
+    "url": "https://baltic-rcc.eu/contact/career",
+    "location": "Estonie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:53:41.072Z",
+    "id": "app_8tz3hlan2",
+    "createdAt": "2026-09-08T12:51:15.508Z"
+  },
+  {
+    "name": "Elering",
+    "url": "https://elering.ee/en/internships-and-scholarships",
+    "location": "Estonie",
+    "status": "refuse",
+    "updatedAt": "2026-09-08T12:52:11.948Z",
+    "id": "app_c5byltm01",
+    "createdAt": "2026-09-08T12:50:31.165Z"
+  },
+  {
+    "name": "APPLY",
+    "url": "https://applyit.lv/en/",
+    "location": "Lettonie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:53:48.169Z",
+    "id": "app_eeuxw8emf",
+    "createdAt": "2026-09-08T12:50:06.507Z"
+  },
+  {
+    "name": "Ignitis Group",
+    "url": "https://ignitisgrupe.lt/en/job-offers/praktikante-ai-komandoje-3438",
+    "location": "Lituanie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:49:14.285Z",
+    "id": "app_sqjsgjfg0",
+    "createdAt": "2026-09-08T12:49:14.285Z"
+  },
+  {
+    "name": "Litgrid",
+    "url": "https://www.litgrid.eu/index.php/about-us/career/604",
+    "location": "Lituanie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:52:34.230Z",
+    "id": "app_ih9iv77pt",
+    "createdAt": "2026-09-08T12:52:34.230Z"
+  },
+  {
+    "name": "AST",
+    "url": "https://www.ast.lv/en/content/possibilities-internship-ast",
+    "location": "Lettonie",
+    "status": "attente",
+    "updatedAt": "2026-09-08T12:53:33.904Z",
+    "id": "app_gf3fv1ot7",
+    "createdAt": "2026-09-08T12:53:33.904Z"
+  }
+]
