@@ -22,19 +22,22 @@ Pour permettre au dashboard de lire et enregistrer vos candidatures dans votre d
 
 ---
 
-### Étape 3 : Configurer la synchronisation Git dans l'application
-Lors de votre première ouverture de l'application (ou via le panneau **Paramètres / Configuration Git**) :
+### Étape 3 : Configurer l'application
+Lors de votre première ouverture du dashboard (ou via le panneau **Configuration GitHub**) :
 
-1. **Utilisateur / Dépôt (`owner/repo`)** : Entrez votre identifiant GitHub et le nom du dépôt (ex. `votre-utilisateur/dashboard-psi`).
-2. **Chemin des données (`path`)** : Saisissez le chemin du fichier JSON de stockage, par défaut :
-   ```text
-   data/candidatures.json
-   ```
-3. **Configurer le Token GitHub :**
-   - Renseignez le token dans votre variable de configuration ou via l'interface d'administration du Dashboard (si une boîte de dialogue d'authentification est prévue) :
-   ```javascript
-   const GITHUB_TOKEN = "votre_token_github_ici";
-   ```
+1. **Renseigner les identifiants du dépôt :**
+   - **Nom du dépôt (`owner/repo`)** : Entrez votre identifiant GitHub et le nom du dépôt (ex. `votre-nom-utilisateur/dashboard-psi`).
+   - **Chemin du fichier (`path`)** : Saisissez le chemin vers le fichier de stockage des candidatures :
+     ```text
+     data/candidatures.json
+     ```
+   - **Token GitHub** : Collez le token d'accès généré à l'étape 2.
+
+2. **Sécurité & Confidentialité :**
+   - Vos identifiants ainsi que le token GitHub sont stockés **exclusivement en local** dans votre navigateur (`localStorage`).
+   - Aucune donnée ni clé API ne transitent par un serveur tiers.
+   - Le token n'est jamais exposé ni inclus dans le code source du projet.
+   - Les données sont transmises directement et de manière sécurisée entre votre navigateur et l'API officielle de GitHub.
 
 ---
 
