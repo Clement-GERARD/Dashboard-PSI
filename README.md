@@ -1,47 +1,34 @@
-# 📊 Dashboard PSI - Suivi des Candidatures
+# 📊 Dashboard PSI
 
-Bienvenue sur le **Dashboard PSI**, une application web interactive permettant d'afficher, suivre et gérer la liste des candidatures en temps réel. Le projet s'appuie sur une structure légère basée sur du HTML/JavaScript et un fichier de données `data/candidatures.json`.
-
----
-
-## 🚀 Guide d'installation et de configuration
-
-Pour déployer et utiliser votre propre instance de ce tableau de bord, suivez les étapes ci-dessous.
-
-### 1. Fork du dépôt
-1. En haut à droite de cette page GitHub, cliquez sur le bouton **Fork**.
-2. Sélectionnez le compte ou l'organisation dans lequel vous souhaitez copier le projet.
-3. Conservez ou modifiez le nom du dépôt, puis validez en cliquant sur **Create fork**.
+Dashboard interactif pour la gestion et le suivi des candidatures PSI, connecté directement à un dépôt GitHub pour la persistance des données.
 
 ---
 
-### 2. Création du Token d'accès GitHub (Personal Access Token)
-Afin d'autoriser l'application web à lire ou écrire dans votre dépôt (par exemple pour mettre à jour automatiquement le fichier JSON), vous devez générer un Token GitHub :
+## 🚀 Configuration & Guide de démarrage
 
-1. Cliquez sur votre photo de profil (en haut à droite sur GitHub) > **Settings**.
-2. Dans le menu de gauche, descendez tout en bas et cliquez sur **Developer settings**.
-3. Allez dans **Personal access tokens** > **Tokens (classic)** (ou *Fine-grained tokens* selon votre usage).
-4. Cliquez sur **Generate new token** (*Generate new token (classic)*).
-5. Donnez un nom explicite à votre token (ex: `Dashboard-PSI-Token`).
-6. Définissez la durée d'expiration (ex: 90 jours ou No expiration).
-7. Cochez les permissions requises :
-   - Pour un token classique : cochez **`repo`** (accès complet aux dépôts privés/publics).
-8. Cliquez sur **Generate token** en bas de page.
-9. **Copiez immédiatement le token généré** et conservez-le en lieu sûr (il ne sera plus affiché).
+### Étape 1 : Forker le dépôt
+1. Sur GitHub, cliquez sur le bouton **Fork** en haut à droite de cette page pour créer votre propre copie du dépôt sous votre compte.
+2. Activez **GitHub Pages** dans les paramètres (*Settings > Pages*) de votre dépôt forké si vous souhaitez l'héberger gratuitement.
 
 ---
 
-### 3. Configuration de l'application
-Ouvrez le projet dans votre éditeur de code ou directement sur GitHub pour adapter les paramètres de configuration dans votre code JavaScript (souvent situé au début de `index.html` ou dans un fichier `app.js` / `config.js`) :
+### Étape 2 : Générer un Personal Access Token (PAT) GitHub
+Pour permettre au dashboard de lire et enregistrer vos candidatures dans votre dépôt :
+1. Allez dans vos paramètres GitHub : **Settings > Developer Settings > Personal Access Tokens > Fine-grained tokens** (ou *Tokens (classic)*).
+2. Cliquez sur **Generate new token**.
+3. Donnez un nom au token (ex. `Dashboard-PSI-Token`).
+4. Accordez l'accès au dépôt `dashboard-psi` et cochez les permissions **Contents (Read & Write)**.
+5. Copiez la clé générée.
 
-1. **Renseigner le nom du dépôt et de l'utilisateur :**
-   ```javascript
-   const GITHUB_USERNAME = "votre-nom-utilisateur";
-   const REPO_NAME = "votre-nom-de-depot";
-   ```
-2. **Définir le chemin vers les données (`data path`) :**
-   ```javascript
-   const DATA_PATH = "data/candidatures.json";
+---
+
+### Étape 3 : Configurer la synchronisation Git dans l'application
+Lors de votre première ouverture de l'application (ou via le panneau **Paramètres / Configuration Git**) :
+
+1. **Utilisateur / Dépôt (`owner/repo`)** : Entrez votre identifiant GitHub et le nom du dépôt (ex. `votre-utilisateur/dashboard-psi`).
+2. **Chemin des données (`path`)** : Saisissez le chemin du fichier JSON de stockage, par défaut :
+   ```text
+   data/candidatures.json
    ```
 3. **Configurer le Token GitHub :**
    - Renseignez le token dans votre variable de configuration ou via l'interface d'administration du Dashboard (si une boîte de dialogue d'authentification est prévue) :
@@ -67,12 +54,16 @@ Ouvrez le projet dans votre éditeur de code ou directement sur GitHub pour adap
 
 Voici la liste des fonctionnalités prévues et des pistes d'amélioration pour le projet :
 
-### 🟡 Priorité Moyenne (Expérience Utilisateur & Visualisation)
+### 🎨 Interface & UX
 - [ ] **Statistiques & Graphiques :**
   - [ ] Graphique circulaire des candidatures par statut.
   - [ ] Graphique temporel des postulations par mois/semaine.
 - [ ] **Pagination ou Scroll infini :** Optimiser l'affichage si le nombre de candidatures devient trop important.
 
-### 🔵 Priorité Basse (Améliorations techniques)
+### ⚙️ Fonctionnalités
 - [ ] **Notifications / Rappels :** Ajouter un indicateur pour les candidatures nécessitant une relance (ex: > 14 jours sans réponse).
 - [ ] **Mode Sombre / Clair :** Implémenter un sélecteur de thème pour le confort visuel.
+
+## 👤 Auteur
+
+Projet développé et maintenu par Clément Gérard.
