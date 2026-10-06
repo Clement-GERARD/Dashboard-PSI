@@ -67,15 +67,7 @@ Ouvrez le projet dans votre éditeur de code ou directement sur GitHub pour adap
 
 Voici la liste des fonctionnalités prévues et des pistes d'amélioration pour le projet :
 
-### 🟢 Priorité Haute (Fonctionnalités de base)
-- [ ] **Gestion des accès / Securité :** Éviter de stocker le token GitHub en clair dans le code client (passer par une authentification dynamique ou un formulaire de saisie locale dans le navigateur).
-- [ ] **Formulaire d'ajout de candidature :** Permettre l'ajout d'une candidature directement depuis l'interface sans modifier à la main le fichier `candidatures.json`.
-- [ ] **Édition et Suppression :** Ajouter des boutons d'action sur chaque ligne/carte pour modifier le statut ou supprimer une candidature.
-
 ### 🟡 Priorité Moyenne (Expérience Utilisateur & Visualisation)
-- [ ] **Recherche et Filtres avancés :**
-  - [ ] Recherche par mot-clé (nom d'entreprise, poste).
-  - [ ] Filtres par statut (*En attente*, *Entretien*, *Refusé*, *Accepté*).
 - [ ] **Statistiques & Graphiques :**
   - [ ] Graphique circulaire des candidatures par statut.
   - [ ] Graphique temporel des postulations par mois/semaine.
@@ -83,6 +75,4 @@ Voici la liste des fonctionnalités prévues et des pistes d'amélioration pour 
 
 ### 🔵 Priorité Basse (Améliorations techniques)
 - [ ] **Notifications / Rappels :** Ajouter un indicateur pour les candidatures nécessitant une relance (ex: > 14 jours sans réponse).
-- [ ] **Export des données :** Ajouter un bouton pour exporter la liste au format CSV ou Excel.
 - [ ] **Mode Sombre / Clair :** Implémenter un sélecteur de thème pour le confort visuel.
-- [ ] **Déploiement GitHub Pages :** Configurer GitHub Pages dans les réglages du dépôt pour héberger l'application gratuitement.
